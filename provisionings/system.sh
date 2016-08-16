@@ -13,8 +13,3 @@ Rscript /vagrant/provisionings/install_packages.r
 # IDHS layout
 mv /vagrant/data /data
 chmod 700 /home/vagrant/.ssh/id_rsa
-
-cd /home/vagrant
-git clone git@github.com:UCL-HIC/ccdata.git
-cd ccdata
-make
