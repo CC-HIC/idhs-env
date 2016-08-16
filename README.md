@@ -3,9 +3,9 @@ Virtual machine with IDHS setups.
 
 ## Setup
 1. install Vagrant
-* MacOS: `brew install vagrant`
-* Ubuntu: `sudo apt-get install vagrant`
-* Windows: go to vagrant [installation page](https://www.vagrantup.com/downloads.html)
+  * MacOS: `brew install vagrant`
+  * Ubuntu: `sudo apt-get install vagrant`
+  * Windows: go to vagrant [installation page](https://www.vagrantup.com/downloads.html)
 
 2. Download idhs-env
 ```bash
