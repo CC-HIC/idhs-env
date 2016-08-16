@@ -11,5 +11,5 @@ yum -y install $depd
 Rscript /vagrant/provisionings/install_packages.r
 
 # IDHS layout
-mv /vagrant/data /data
+cp -rf /vagrant/data /data
 chmod 700 /home/vagrant/.ssh/id_rsa
