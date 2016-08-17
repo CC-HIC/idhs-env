@@ -7,3 +7,4 @@ libpqxx-devel.x86_64
 libpqxx-doc.noarch
 libpqxx.x86_64
 git
+vim
