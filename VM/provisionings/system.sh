@@ -11,5 +11,10 @@ yum -y install $depd
 Rscript /vagrant/provisionings/install_packages.r
 
 # IDHS layout
-cp -rf /vagrant/data /data
-chmod 700 /home/vagrant/.ssh/id_rsa
+# cp -rf /vagrant/data /data
+# chmod 700 /home/vagrant/.ssh/id_rsa
+
+# Clone last version of ccdata and install (as root)
+sudo -u vagrant git clone git@github.com:UCL-HIC/ccdata.git
+cd ~vagrant/ccdata
+make
