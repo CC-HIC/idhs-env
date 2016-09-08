@@ -12,7 +12,8 @@ Rscript /vagrant/provisionings/install_packages.r
 
 # IDHS layout
 # cp -rf /vagrant/data /data
-# chmod 700 /home/vagrant/.ssh/id_rsa
+chmod 700 /home/vagrant/.ssh/id_rsa
+chmod 700 /home/vagrant/.ssh/known_host
 
 # Clone last version of ccdata and install (as root)
 sudo -u vagrant git clone git@github.com:UCL-HIC/ccdata.git
