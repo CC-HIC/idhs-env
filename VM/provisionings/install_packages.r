@@ -7,7 +7,9 @@ pkgs = c("devtools",
          "RPostgreSQL",
          "pander",
          "yaml",
-         "roxygen2")
+         "roxygen2",
+         "assertthat", 
+         "purrr")
 
 repos = "https://cran.r-project.org/"
 
